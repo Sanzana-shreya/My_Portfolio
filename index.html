@@ -16,12 +16,12 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-regular fa-circle-xmark" style="color: #ffffff;"onclick="closemenu()"></i>
             </ul>
-            <i class="fa-solid fa-bars" style="color: #ffffff;"onclick=openmenu()></i>
+            <i class="fa-solid fa-bars" style="color: #ffffff;"onclick="openmenu()"></i>
            
         </nav>
         <div class="header-text">
@@ -90,19 +90,19 @@
                 <i class="fa-solid fa-laptop-code" style="color: #ffffff;"></i>
                 <h2>Web Design</h2>
                 <p>Efficient web/app design and builing</p>
-                <a href="#">Learn more</a>
+                <a href="https://github.com/Sanzana-shreya/My_Portfolio.git">Learn more</a>
             </div>
             <div>
                 <i class="fa-solid fa-code" style="color: #ffffff;"></i>
                 <h2>Machine Learning</h2>
                 <p>Train AI models</p>
-                <a href="#">Learn more</a>
+                <a href="https://github.com/Mahrjose/NIDS-Machine-Learning.git">Learn more</a>
             </div>
             <div>
                 <i class="fa-sharp fa-solid fa-robot" style="color: #ffffff;"></i>
                 <h2>Robotics</h2>
                 <p>Building and invent,works for computer vision</p>
-                <a href="#">Learn more</a>
+                <a href="https://github.com/SabistaIfraj/CSE428.git">Learn more</a>
             </div>
 
         </div>
@@ -127,7 +127,7 @@
                 <div class="layer">
                     <h3>Language Learning Apps</h3>
                     <p>Apps help you to learn new languages as well as connects you with new people around the world.Let's learn.</p>
-                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #ff0095;"></i></a>
+                    <a href="https://github.com/riha29/CSE470_IntellectQuest.git"><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #ff0095;"></i></a>
                 </div>
             </div>
             <div class="work">
@@ -140,7 +140,7 @@
             </div>
 
         </div>
-        <a href="#" class="btn">See more</a>
+        <a href="https://github.com/Sanzana-shreya" class="btn">See more</a>
     </div>
 </div>
 <!-------contact---------->
@@ -188,7 +188,7 @@
             tablink.classList.remove("active-link")
         }
         for(tabcontent of tabcontents){
-            tabcontent.clas<sList.remove("active-tab")
+            tabcontent.classList.remove("active-tab")
         }
         event.currentTarget.classList.add("active-link")
         document.getElementById(tabname).classList.add("active-tab");
@@ -196,7 +196,7 @@
 </script>
 
 <script>
-    var sidemenu=document.getElementById("sidemenu")
+    var sidemenu = document.getElementById("sidemenu");
 
     function openmenu(){
         sidemenu.style.right="0";
